@@ -4,14 +4,24 @@ public class House {
     private long houseId;
     private String title;
     private String img;
-    private String info;
+    private String area;
+    private String type;
     private String phoneNumber;
     private String district;
     private String city;
     private String community;
+    private String link;
     private double price;
 
     public House() {
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 
     public String getTitle() {
@@ -36,14 +46,6 @@ public class House {
 
     public void setImg(String img) {
         this.img = img;
-    }
-
-    public String getInfo() {
-        return info;
-    }
-
-    public void setInfo(String info) {
-        this.info = info;
     }
 
     public String getPhoneNumber() {
@@ -84,5 +86,21 @@ public class House {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

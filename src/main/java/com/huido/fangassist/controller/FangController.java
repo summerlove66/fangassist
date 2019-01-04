@@ -30,7 +30,7 @@ public class FangController {
         house.setHouseId(12);
         house.setPhoneNumber("10086");
         house.setImg("https://pic3.58cdn.com.cn/mobile/small/n_v2a62ce24bb88b403183b1188a11abfdd4.jpg");
-        house.setInfo("2室1厅|60.97㎡|天瑞国际");
+        //house.setInfo("2室1厅|60.97㎡|天瑞国际");
         house.setPrice(102);
         house.setTitle("随便一家房子，准备卖个100wf");
         List<House> houseList = new ArrayList<>();
